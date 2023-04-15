@@ -2,20 +2,10 @@ import Foundation
 
 // MARK: - Welcome
 struct BookModel: Codable {
-    let numFound, start: Int
-    let numFoundExact: Bool
     let docs: [Book]
-    let welcomeNumFound: Int
-    let q: String
-
-    enum CodingKeys: String, CodingKey {
-        case numFound, start, numFoundExact, docs
-        case welcomeNumFound = "num_found"
-        case q
-    }
 }
 
-// MARK: - Doc
+// MARK: - Book
 struct Book: Codable {
     let title: String
     let firstPublishYear: Int
