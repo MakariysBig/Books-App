@@ -9,21 +9,52 @@
 /* Begin PBXBuildFile section */
 		AB10CFC429E95C21004F810C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFC329E95C21004F810C /* AppDelegate.swift */; };
 		AB10CFC629E95C21004F810C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFC529E95C21004F810C /* SceneDelegate.swift */; };
-		AB10CFC829E95C21004F810C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFC729E95C21004F810C /* ViewController.swift */; };
-		AB10CFCB29E95C21004F810C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB10CFC929E95C21004F810C /* Main.storyboard */; };
 		AB10CFCD29E95C22004F810C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB10CFCC29E95C22004F810C /* Assets.xcassets */; };
 		AB10CFD029E95C22004F810C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB10CFCE29E95C22004F810C /* LaunchScreen.storyboard */; };
+		AB10CFDE29E97BFD004F810C /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFDC29E97BFD004F810C /* MainRouter.swift */; };
+		AB10CFDF29E97BFD004F810C /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFDD29E97BFD004F810C /* RouterProtocol.swift */; };
+		AB10CFE329E97C0A004F810C /* ModuleBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFE129E97C0A004F810C /* ModuleBuilderProtocol.swift */; };
+		AB10CFE429E97C0A004F810C /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFE229E97C0A004F810C /* ModuleBuilder.swift */; };
+		AB10CFEB29E97C14004F810C /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFE729E97C14004F810C /* EndpointProtocol.swift */; };
+		AB10CFEC29E97C14004F810C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFE829E97C14004F810C /* NetworkManager.swift */; };
+		AB10CFED29E97C14004F810C /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFE929E97C14004F810C /* NetworkEngine.swift */; };
+		AB10CFF929E97C20004F810C /* BookPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFF029E97C20004F810C /* BookPresenter.swift */; };
+		AB10CFFA29E97C20004F810C /* BookProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFF229E97C20004F810C /* BookProtocols.swift */; };
+		AB10CFFB29E97C20004F810C /* BookCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFF429E97C20004F810C /* BookCustomTableViewCell.swift */; };
+		AB10CFFC29E97C20004F810C /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFF629E97C20004F810C /* BookModel.swift */; };
+		AB10CFFD29E97C20004F810C /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10CFF829E97C20004F810C /* BookViewController.swift */; };
+		AB10D00529E97C26004F810C /* DescribePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10D00029E97C26004F810C /* DescribePresenter.swift */; };
+		AB10D00629E97C26004F810C /* DescribeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10D00229E97C26004F810C /* DescribeProtocol.swift */; };
+		AB10D00729E97C26004F810C /* DescribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10D00429E97C26004F810C /* DescribeViewController.swift */; };
+		AB10D00A29E97CB3004F810C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AB10D00929E97CB3004F810C /* SnapKit */; };
+		AB10D01629E98EB3004F810C /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10D01529E98EB3004F810C /* UIImageView+Extension.swift */; };
+		AB10D01829E98FA5004F810C /* BookEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10D01729E98FA5004F810C /* BookEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB10CFC029E95C21004F810C /* BookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB10CFC329E95C21004F810C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB10CFC529E95C21004F810C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB10CFC729E95C21004F810C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AB10CFCA29E95C21004F810C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB10CFCC29E95C22004F810C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB10CFCF29E95C22004F810C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB10CFD129E95C22004F810C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB10CFDC29E97BFD004F810C /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		AB10CFDD29E97BFD004F810C /* RouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		AB10CFE129E97C0A004F810C /* ModuleBuilderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleBuilderProtocol.swift; sourceTree = "<group>"; };
+		AB10CFE229E97C0A004F810C /* ModuleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		AB10CFE729E97C14004F810C /* EndpointProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointProtocol.swift; sourceTree = "<group>"; };
+		AB10CFE829E97C14004F810C /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AB10CFE929E97C14004F810C /* NetworkEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
+		AB10CFF029E97C20004F810C /* BookPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookPresenter.swift; sourceTree = "<group>"; };
+		AB10CFF229E97C20004F810C /* BookProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookProtocols.swift; sourceTree = "<group>"; };
+		AB10CFF429E97C20004F810C /* BookCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCustomTableViewCell.swift; sourceTree = "<group>"; };
+		AB10CFF629E97C20004F810C /* BookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		AB10CFF829E97C20004F810C /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		AB10D00029E97C26004F810C /* DescribePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescribePresenter.swift; sourceTree = "<group>"; };
+		AB10D00229E97C26004F810C /* DescribeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescribeProtocol.swift; sourceTree = "<group>"; };
+		AB10D00429E97C26004F810C /* DescribeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescribeViewController.swift; sourceTree = "<group>"; };
+		AB10D01529E98EB3004F810C /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		AB10D01729E98FA5004F810C /* BookEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB10D00A29E97CB3004F810C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +88,150 @@
 		AB10CFC229E95C21004F810C /* BookApp */ = {
 			isa = PBXGroup;
 			children = (
+				AB10CFD729E97BA5004F810C /* Delegate */,
+				AB10CFDB29E97BFD004F810C /* Router */,
+				AB10CFE029E97C0A004F810C /* ModuleBuilder */,
+				AB10CFE529E97C14004F810C /* NetworkLayer */,
+				AB10CFEE29E97C20004F810C /* BooksModule */,
+				AB10CFFE29E97C26004F810C /* DescribeModule */,
+				AB10CFD829E97BCA004F810C /* SupportsFile */,
+			);
+			path = BookApp;
+			sourceTree = "<group>";
+		};
+		AB10CFD729E97BA5004F810C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
 				AB10CFC329E95C21004F810C /* AppDelegate.swift */,
 				AB10CFC529E95C21004F810C /* SceneDelegate.swift */,
-				AB10CFC729E95C21004F810C /* ViewController.swift */,
-				AB10CFC929E95C21004F810C /* Main.storyboard */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		AB10CFD829E97BCA004F810C /* SupportsFile */ = {
+			isa = PBXGroup;
+			children = (
+				AB10D01529E98EB3004F810C /* UIImageView+Extension.swift */,
 				AB10CFCC29E95C22004F810C /* Assets.xcassets */,
 				AB10CFCE29E95C22004F810C /* LaunchScreen.storyboard */,
 				AB10CFD129E95C22004F810C /* Info.plist */,
 			);
-			path = BookApp;
+			name = SupportsFile;
+			sourceTree = "<group>";
+		};
+		AB10CFDB29E97BFD004F810C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AB10CFDC29E97BFD004F810C /* MainRouter.swift */,
+				AB10CFDD29E97BFD004F810C /* RouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AB10CFE029E97C0A004F810C /* ModuleBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				AB10CFE129E97C0A004F810C /* ModuleBuilderProtocol.swift */,
+				AB10CFE229E97C0A004F810C /* ModuleBuilder.swift */,
+			);
+			path = ModuleBuilder;
+			sourceTree = "<group>";
+		};
+		AB10CFE529E97C14004F810C /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				AB10CFE729E97C14004F810C /* EndpointProtocol.swift */,
+				AB10D01729E98FA5004F810C /* BookEndpoint.swift */,
+				AB10CFE829E97C14004F810C /* NetworkManager.swift */,
+				AB10CFE929E97C14004F810C /* NetworkEngine.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		AB10CFEE29E97C20004F810C /* BooksModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB10CFF529E97C20004F810C /* Model */,
+				AB10CFF729E97C20004F810C /* View */,
+				AB10CFEF29E97C20004F810C /* Presenter */,
+				AB10CFF129E97C20004F810C /* Protocol */,
+				AB10CFF329E97C20004F810C /* CryptoCustomCell */,
+			);
+			path = BooksModule;
+			sourceTree = "<group>";
+		};
+		AB10CFEF29E97C20004F810C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AB10CFF029E97C20004F810C /* BookPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AB10CFF129E97C20004F810C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AB10CFF229E97C20004F810C /* BookProtocols.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		AB10CFF329E97C20004F810C /* CryptoCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB10CFF429E97C20004F810C /* BookCustomTableViewCell.swift */,
+			);
+			path = CryptoCustomCell;
+			sourceTree = "<group>";
+		};
+		AB10CFF529E97C20004F810C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB10CFF629E97C20004F810C /* BookModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB10CFF729E97C20004F810C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB10CFF829E97C20004F810C /* BookViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB10CFFE29E97C26004F810C /* DescribeModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB10CFFF29E97C26004F810C /* Presenter */,
+				AB10D00129E97C26004F810C /* Protocol */,
+				AB10D00329E97C26004F810C /* View */,
+			);
+			path = DescribeModule;
+			sourceTree = "<group>";
+		};
+		AB10CFFF29E97C26004F810C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AB10D00029E97C26004F810C /* DescribePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AB10D00129E97C26004F810C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AB10D00229E97C26004F810C /* DescribeProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		AB10D00329E97C26004F810C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB10D00429E97C26004F810C /* DescribeViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +250,9 @@
 			dependencies = (
 			);
 			name = BookApp;
+			packageProductDependencies = (
+				AB10D00929E97CB3004F810C /* SnapKit */,
+			);
 			productName = BookApp;
 			productReference = AB10CFC029E95C21004F810C /* BookApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +281,9 @@
 				Base,
 			);
 			mainGroup = AB10CFB729E95C21004F810C;
+			packageReferences = (
+				AB10D00829E97CB3004F810C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = AB10CFC129E95C21004F810C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +300,6 @@
 			files = (
 				AB10CFD029E95C22004F810C /* LaunchScreen.storyboard in Resources */,
 				AB10CFCD29E95C22004F810C /* Assets.xcassets in Resources */,
-				AB10CFCB29E95C21004F810C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +310,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB10CFC829E95C21004F810C /* ViewController.swift in Sources */,
+				AB10CFE329E97C0A004F810C /* ModuleBuilderProtocol.swift in Sources */,
+				AB10CFED29E97C14004F810C /* NetworkEngine.swift in Sources */,
+				AB10D01629E98EB3004F810C /* UIImageView+Extension.swift in Sources */,
+				AB10CFEB29E97C14004F810C /* EndpointProtocol.swift in Sources */,
+				AB10CFFA29E97C20004F810C /* BookProtocols.swift in Sources */,
+				AB10D00529E97C26004F810C /* DescribePresenter.swift in Sources */,
+				AB10CFDF29E97BFD004F810C /* RouterProtocol.swift in Sources */,
+				AB10CFEC29E97C14004F810C /* NetworkManager.swift in Sources */,
+				AB10CFF929E97C20004F810C /* BookPresenter.swift in Sources */,
+				AB10CFFD29E97C20004F810C /* BookViewController.swift in Sources */,
+				AB10CFDE29E97BFD004F810C /* MainRouter.swift in Sources */,
+				AB10D00729E97C26004F810C /* DescribeViewController.swift in Sources */,
+				AB10D00629E97C26004F810C /* DescribeProtocol.swift in Sources */,
+				AB10CFE429E97C0A004F810C /* ModuleBuilder.swift in Sources */,
+				AB10CFFB29E97C20004F810C /* BookCustomTableViewCell.swift in Sources */,
 				AB10CFC429E95C21004F810C /* AppDelegate.swift in Sources */,
+				AB10CFFC29E97C20004F810C /* BookModel.swift in Sources */,
+				AB10D01829E98FA5004F810C /* BookEndpoint.swift in Sources */,
 				AB10CFC629E95C21004F810C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +335,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB10CFC929E95C21004F810C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB10CFCA29E95C21004F810C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB10CFCE29E95C22004F810C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +471,7 @@
 				INFOPLIST_FILE = BookApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -319,7 +499,7 @@
 				INFOPLIST_FILE = BookApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -358,6 +538,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB10D00829E97CB3004F810C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB10D00929E97CB3004F810C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB10D00829E97CB3004F810C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AB10CFB829E95C21004F810C /* Project object */;
 }

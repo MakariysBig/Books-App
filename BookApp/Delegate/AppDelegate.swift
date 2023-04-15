@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  BookApp
-//
-//  Created by Maksim Makarevich on 14.04.23.
-//
-
 import UIKit
 
 @main
